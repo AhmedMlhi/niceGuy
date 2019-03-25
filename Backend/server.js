@@ -9,6 +9,9 @@ require("./db");
 
 
 
+app.get('/', (req, res) => {
+  res.send('Nothing to see!');
+});
 
 
 
